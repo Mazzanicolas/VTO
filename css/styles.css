@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+}
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: black;
+  color: #444;
+}
+.logo{
+  padding: 10px;
+  display:block;
+  margin:auto;
+}
+#jeeFaceFilterCanvas {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#container {
+  object-fit: cover;
+}
+canvas {
+  position: absolute;
+  margin: auto;
+  transform: scale(-1, 1);
+}
